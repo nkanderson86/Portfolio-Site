@@ -1,3 +1,6 @@
+body {
+    margin:0 auto;
+}
 
 .header {
     float: left;
@@ -22,11 +25,14 @@
     color: #777777;
     font-family: 'Helvetiva Neue', Helvetica, sans-serif; 
     margin-top:30px;  
+    margin-right: 190px;
 }
 
 .container {
     clear:both;
-    background-image: url("/Assets/images/qbkls.png");
+    background-image: url("https://image.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg");
+    width:100%;
+    float:left;
 }
 
 .center {
@@ -34,6 +40,9 @@
     width:960px;
     margin: 0 auto;
     float: left;
+    border: solid 1px #cccccc;
+    margin-left: 130px;
+    
 }
 
 .sectionTitle {
@@ -52,6 +61,8 @@
     float: left;
 }
 
-footer {
+.footer {
     background-color: #666666;
+    position: absolute;
+    float: left;
 }
