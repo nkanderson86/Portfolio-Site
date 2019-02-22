@@ -1,13 +1,22 @@
-body {
-    margin:0 auto;
+
+* {
+    box-sizing: border-box;
 }
 
-.header {
+body {
+    margin:0 auto;
+    background-image: url("../images/qbkls.png");
+}
+
+/* Styling for header of each page */
+ 
+header {
     float: left;
     width: 100%;
     margin:0 auto;
     background-color:#ffffff;
     border: solid 1px #cccccc;
+    position: relative;
 }
 
 #name {
@@ -15,7 +24,7 @@ body {
     color:white;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 130px;
+    margin-left: 10%;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -25,44 +34,90 @@ body {
     color: #777777;
     font-family: 'Helvetiva Neue', Helvetica, sans-serif; 
     margin-top:30px;  
-    margin-right: 190px;
+    margin-right: 15%;
+    text-decoration: none;
+    font-size: 14pt;    
 }
 
-.container {
-    clear:both;
-    background-image: url("https://image.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg");
-    width:100%;
-    float:left;
+a {
+    text-decoration: none;
+    color: #777777;
 }
 
+/* Styling for center section of each page */
 .center {
-    background-color: #ffffff;
-    width:960px;
-    margin: 0 auto;
-    float: left;
-    border: solid 1px #cccccc;
-    margin-left: 130px;
-    
+    background: #ffffff;
+    margin: 5% 10%;
+    clear: both;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    position: relative;
+
 }
 
 .sectionTitle {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 1px #cccccc;
+    margin: 0 2%;
 }
+
+/* Styling for About Me main section */
 
 .text {
     color: #777777;
-    font-family: 'Helvetiva Neue', Helvetica, sans-serif;   
+    font-family: 'Helvetiva Neue', Helvetica, sans-serif; 
+    margin: 0 2%;  
+    float: left;
 }
 
 .profile {
-    height:200px;
-    width: auto;
+    height:auto;
+    width: 20%;
     float: left;
+    margin: 15px;
 }
 
-.footer {
+/* Styling for Contact main section */
+
+.inputForm {
+    width:98%;
+    margin: 0 2%;
+}
+
+input {
+    width:95%;
+    height: 30px;
+    font-size: 20px;
+    padding: 3px;
+    margin-right: 4px;
+  
+}
+
+#messageBox {
+    height: 120px;
+    width: 95%;
+    max-width: 95%;
+    min-width: 50%;
+}
+
+#submitButton{
+    width:10%;
+    text-align: center;
+    margin: 5px auto;
+}
+
+
+/* Styling for footer */
+footer {
     background-color: #666666;
-    position: absolute;
+    position: fixed;
     float: left;
+    width: 100%;
+    height: 40px;
+    bottom:0;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    border-top: solid 4pt #4aaaa5;
 }

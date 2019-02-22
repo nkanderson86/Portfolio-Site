@@ -9,24 +9,21 @@
   <link rel="shortcut icon" type="image/png" href="Assets/images/favicon.png">
 </head>
 
+<header>
 
-<body>
-
-    <div class='header'>
-
-        <div id='name'>
+        <div id=name>
             <h1> Nick Anderson </h1>
         </div>
-
+    
         <div id='links'>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a> 
+            <a href="index.html">About</a>&nbsp | 
+            <a href="portfolio.html">Portfolio</a>&nbsp |
             <a href="contact.html">Contact</a>
         </div>
+    
+</header>
 
-    </div>
-
-<div class='container'>
+<body>
 
     <div class='center'>
 
@@ -37,30 +34,29 @@
         <div class='inputForm'>
 
             <h4>Name</h4>
-                <input>
-                   
-
+                <input type=text name="Name" placeholder="John Smith" id="nameBox" required> 
+            <br><br>
+                
             <h4>Email</h4>
-                <input>
-                  
+                <input type=text name="Email" placeholder="jSmith123@gmail.com" id="emailBox" required>
+            <br><br>
 
             <h4>Message</h4>
-                <input>
+                <textarea 
+                    type=text name="Message" id="messageBox" required>
+                    </textarea>
                   
 
-            <button type="button">Submit</button>
+            <input type="submit" value="Submit" id="submitButton">
 
         </div>
 
     </div>
 
-</div>
-
 </body>
 
 <footer>
-
-
+        Copyright ©
 </footer>
 
 </html> 
